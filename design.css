@@ -53,6 +53,7 @@ ul {
     justify-content: space-around;
     width: 95%;
     border-radius: 20px;
+    padding-bottom:50px;
  
  }
  .boutonexplorer{
@@ -111,6 +112,26 @@ ul {
     margin-left:5%;
     font-weight: bold;
     font-size:20px;
+ }
+ .grandfoot{
+    padding-left:25px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color:white;
+ }
+
+ .titrefoot{
+    margin-bottom:15px;
+    padding-top:10px;
+    font-weight: bold;
+    font-style: italic;
+ }
+ .footinfo{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+ }
+ .widthfoot{
+    width:100%;
  }
 
 

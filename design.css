@@ -46,6 +46,33 @@ ul {
     padding-top:2%;
  
  }
+ .titreentrées,.titredessert,.titreplats{
+    padding-top:15px;
+   margin-left:20px;
+    display:flex;
+    flex-wrap:wrap;
+
+
+ }
+ .grandblockchoixrestau{
+    border: 1px solid red;
+    border-radius: 20px 20px 0 0;
+    padding:10px;
+ }
+ .entrées, .plats, .dessert{
+    display:flex;
+    flex-wrap:wrap;
+   margin-left:10px;
+   margin-right:20px;
+   gap:20px;
+
+ }
+ .entrées1,.plats1,.dessert1{
+    padding-left:20px;
+   width:100%;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 30px;
+}
  .conteneurrestau{
     display:flex;
     margin-left:2%;

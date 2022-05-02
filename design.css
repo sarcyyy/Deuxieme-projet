@@ -126,15 +126,26 @@ position:absolute;
  }
  .titreentrées,.titredessert,.titreplats{
     padding-top:15px;
+    padding-bottom:15px;
    margin-left:20px;
     display:flex;
     flex-wrap:wrap;
  }
  .grandblockchoixrestau{
-    border: 1px solid red;
-    border-radius: 20px 20px 0 0;
-    padding:10px;
+   position:relative;
+z-index:2;
+  
+    border-radius: 40px 40px 0 0;
+    padding-top:30px;
+    margin-top:-90px;
+    background-color: white;
+    padding-bottom:50px;
  }
+ .img2{
+    z-index:1;
+    position:relative;
+ }
+
  .entrées, .plats, .dessert{
     display:flex;
     flex-wrap:wrap;
@@ -149,9 +160,10 @@ position:absolute;
  }
  .entrées1,.plats1,.dessert1{
     padding-left:20px;
+    padding-top:10px;
 width:100%;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   border-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 20px;
 }
 .grandfonctionnement {
     
@@ -236,6 +248,18 @@ width:100%;
       padding-right:40px;
       padding-top:19px;
    }
+   .flexrestau{
+      display:flex;
+      justify-content: space-between;
+   }
+   .titrerestau{
+      padding-left:20px;
+      font-size: 25px;
+      font-style:italic;
+      font-weight:900;
+
+    
+   }
    .titrefonc{
       margin-bottom:15px;
       text-align: center;
@@ -260,6 +284,7 @@ justify-content: space-between;
 .prix{
    padding-right:50px;
 }
+
 
 
    .dimimg{ 

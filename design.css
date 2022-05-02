@@ -134,7 +134,6 @@ position:absolute;
     border: 1px solid red;
     border-radius: 20px 20px 0 0;
     padding:10px;
-    background-image:url("MaquettesOhmyfood\MaquettesOhmyfood\images\restaurants\lapalettedugout.jpg");
  }
  .entrées, .plats, .dessert{
     display:flex;

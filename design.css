@@ -39,15 +39,19 @@ position:absolute;
    border-radius: 40px;
 
 }
-.placlog2:hover{
-   background-color:black;
+.arrowpos{
+   padding-left:-50px;
 }
 .placlog2{
- 
+
    position:absolute;
    right:50px;
    bottom:20px;
 }
+.placlog2:hover{
+   display:none;
+}
+
 .divtxt,.div2txt{
    margin-left: 15px;
    margin-bottom: 10px;

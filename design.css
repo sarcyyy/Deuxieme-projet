@@ -54,7 +54,7 @@ position:absolute;
 }
 .divtxt {
    font-weight: bold;
-   font-size: large;
+   font-size: 16px;
 }
 .paddingfoot{
    padding-right:10px;
@@ -105,6 +105,11 @@ position:absolute;
      padding-top:10px;
      margin-bottom:10px;
  }
+.designtitre{
+   font-size: 25px;
+   border-bottom:1px solid red;
+   width:50px;
+}
  .grandblockrestau{
     position: relative;
  }
@@ -158,20 +163,14 @@ z-index:2;
  .widthmax{
     width:100%;                                                                                          
  }
- .entrées1,.plats1,.dessert1{
+ .box{
     padding-left:20px;
     padding-top:10px;
 width:100%;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    border-radius: 20px;
 }
-.grandfonctionnement {
-    
-   animation: fadein 2s;
-   -moz-animation: fadein 2s; /* Firefox */
-   -webkit-animation: fadein 2s; /* Safari et Chrome */
-   -o-animation: fadein 2s; /* Opera */
-}
+
 
 @keyframes fadein {
    from {
@@ -205,6 +204,26 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
        opacity: 1;
    }
 }
+
+.fade1{
+   animation: fadein 1s;
+   -moz-animation: fadein 1s; /* Firefox */
+   -webkit-animation: fadein 1s; /* Safari et Chrome */
+   -o-animation: fadein 1s; /* Opera */
+}
+.fade2{
+   animation: fadein 2s;
+   -moz-animation: fadein 2s; /* Firefox */
+   -webkit-animation: fadein 2s; /* Safari et Chrome */
+   -o-animation: fadein 2s; /* Opera */
+}
+.fade3{
+   animation: fadein 3s;
+   -moz-animation: fadein 3s; /* Firefox */
+   -webkit-animation: fadein 3s; /* Safari et Chrome */
+   -o-animation: fadein 3s; /* Opera */
+}
+
  .conteneurrestau{
     display:flex;
     margin-left:2%;
@@ -222,14 +241,26 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    padding:10px;
    color:white;
  }
- .boutonexplorer{
+ .styleboutoncommander{
+   border: 2px solid plum;
+   border-radius: 50px;
+   background-color: plum;
+   padding:12px;
+   padding-right:35px;
+   padding-left:35px;
+   color:white;
+ }
+ .bouton{
       display:flex;
       flex-wrap:wrap;
       justify-content: center;
       padding-bottom:30px;
 
    }
-
+.paddingcommander{
+   padding-right:10px;
+   padding-left:10px;
+}
  .elementrestau{
    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-bottom: 20px;
@@ -273,16 +304,13 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     flex-wrap:wrap;
     justify-content: center;
  }
- .divtxt{
-    font-weight: bold;
-    font-size: large;
- } 
+
 .test{
    display:flex;
 justify-content: space-between;
 }
 .prix{
-   padding-right:50px;
+   padding-right:30px;
 }
 
 

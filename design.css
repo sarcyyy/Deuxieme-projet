@@ -57,6 +57,7 @@ position:absolute;
    margin-bottom: 10px;
 }
 .divtxt {
+   width:100%;
    font-weight: bold;
    font-size: 16px;
 }
@@ -133,6 +134,7 @@ position:absolute;
     padding-top:2%;
  
  }
+
  .titreentrées,.titredessert,.titreplats{
     padding-top:15px;
     padding-bottom:15px;
@@ -142,13 +144,12 @@ position:absolute;
  }
  .grandblockchoixrestau{
    position:relative;
-z-index:2;
-  
+   z-index:2;
     border-radius: 40px 40px 0 0;
     padding-top:30px;
     margin-top:-90px;
     background-color: white;
-    padding-bottom:50px;
+    margin-bottom:50px;
  }
  .img2{
     z-index:1;
@@ -253,6 +254,12 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    padding-right:35px;
    padding-left:35px;
    color:white;
+   transition:ease-in-out 2s;
+   box-shadow: inset 0 0 0 0 white;
+   
+ }
+ .styleboutoncommander:hover{
+    box-shadow: inset 50px 0 0 0 green;
  }
  .bouton{
       display:flex;
@@ -310,13 +317,34 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
 
 .test{
+  width:calc(100% - 20%);
+
    display:flex;
+   flex-wrap:nowrap;
 justify-content: space-between;
 }
 .prix{
-   padding-right:30px;
+   
+   margin-right:-30px;
+   transition:0.5s;
+   background-color: red;
+
+}
+.entrées1,.plats1,.dessert1{
+   overflow: hidden;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between ;
+   
+
+}
+.vprix{
+   justify-self: flex-end;
 }
 
+.entrées1:hover .prix, .plats1:hover .prix, .dessert1:hover .prix{
+   margin-right:30px;
+}
 
 
    .dimimg{ 

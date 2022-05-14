@@ -44,8 +44,8 @@ img {
    position: absolute;
    left: -7px;
    top: 8px;
-   border: 2px solid purple;
-   background-color: purple;
+   border: 2px solid #9356DC ;
+   background-color: #9356DC ;
    width: 35px;
    height: 35px;
    border-radius: 40px;
@@ -483,8 +483,7 @@ img {
    color:white;
 }
 .prixanimation {
-padding-top:18%;
-padding-left:14%;
+padding:20%;
    color:white; 
 }
 

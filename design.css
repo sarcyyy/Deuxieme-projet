@@ -66,7 +66,7 @@ img {
    transition: 0.5s;
    opacity: 0;
    background-clip:content-box;
-   background:linear-gradient(45deg,#7f5bd4 0%,#ff0046 100%);
+   background:linear-gradient(45deg,#FF79DA  0%,#9356DC 100%);
    -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;
 }
@@ -126,13 +126,14 @@ img {
    border-radius: 50%;
    width: 50px;
    height: 50px;
-   animation: custom-loading 1s linear infinite;
    opacity: 0;
   
 }
+
 .elementrestau:hover .spinner{
    opacity: 1;
    animation-duration: 2s;
+   animation: custom-loading 1s linear 2;
 }
 @keyframes custom-loading {
    0% { transform: rotate(0deg); }
@@ -149,7 +150,7 @@ img {
    color: green;
 
    position: absolute;
-   right: 50px;
+   right: 8%;
    top: 30px;
 }
 
@@ -350,29 +351,32 @@ img {
 }
 
 .stylebouton {
-   border: 2px solid plum;
+   border: 2px solid linear-gradient(#FF79DA  0%,#9356DC 100%)  ;
+   background:linear-gradient( #FF79DA  0%,#9356DC 100%);
    border-radius: 50px;
-   background-color: plum;
    padding: 10px;
    color: white;
 }
 
 .styleboutoncommander {
-   border: 2px solid plum;
+   border: 2px solid linear-gradient(#FF79DA  0%,#9356DC 100%);
    border-radius: 50px;
-   background-color: plum;
+   background:linear-gradient( #FF79DA  0%,#9356DC 100%);
    padding: 12px;
    padding-right: 35px;
    padding-left: 35px;
    color: white;
-   transition: ease-in-out 2s;
-   box-shadow: inset 0 0 0 0 white;
 
 }
-
-.styleboutoncommander:hover {
-   box-shadow: inset 50px 0 0 0 green;
+.stylebouton, .styleboutoncommander{
+   box-shadow:rgb(0 0 0 / 25%) 0px 1px 1px, rgb(0 0 0 / 22%) 0px 5px 5px;
 }
+.stylebouton:hover, .styleboutoncommander:hover{
+   opacity:0.7;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
 
 .bouton {
    display: flex;
@@ -461,7 +465,7 @@ img {
    width: 100px;
    position: absolute;
    transition: 0.5s;
-   background-color: red;
+   background-color: #99E2D0;
 
 }
 
@@ -471,8 +475,9 @@ img {
 }
 
 .prixanimation {
-   padding-left: 10px;
-   margin-top: -8px;
+   padding-left: 15%;
+   margin-top: -5%;
+   color:white; 
 }
 
 .entrées1,

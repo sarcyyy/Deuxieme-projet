@@ -458,7 +458,7 @@ img {
 }
 
 .prix {
-   padding-top: 7%;
+
    top: 0;
    left: 100%;
    height: 100%;
@@ -468,15 +468,23 @@ img {
    background-color: #99E2D0;
 
 }
-
+.textecontact{
+   display:flex;
+   text-align:center;
+   margin:20px;
+   font-weight: bold;
+   font-size:20px;
+}
 .prix2 {
    padding-right: 20px;
    transition: 0.5s;
 }
-
+.white{
+   color:white;
+}
 .prixanimation {
-   padding-left: 15%;
-   margin-top: -5%;
+padding-top:18%;
+padding-left:14%;
    color:white; 
 }
 

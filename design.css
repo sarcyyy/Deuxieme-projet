@@ -10,8 +10,7 @@ ul {
 }
 
 body {
-   font-family: Raleway, Open sans, Arial, Helvetica, sans-serif;
-   /* Roboto aussi utilisable */
+   font-family: 'Roboto', sans-serif;
    font-size: 1em;
 }
 
@@ -185,7 +184,7 @@ img {
 
 .designtitre {
    font-size: 25px;
-   border-bottom: 1px solid #99E2D0;
+   border-bottom: 3px solid #99E2D0;
    width: 50px;
 }
 
@@ -557,7 +556,17 @@ padding:2%;
 .widthfoot {
    width: 100%;
 }
-
+.testgranddesktop{
+   animation: testgranddesktop 1000ms ;
+}
+@keyframes testgranddesktop{
+   0% {
+       display:hidden;
+   }
+   100% {
+       display:block;
+   }
+}
 @media (max-width:850px){
    .testgranddesktop{
       padding:0;

@@ -207,6 +207,7 @@ img {
    font-size: 25px;
    border-bottom: 3px solid #99E2D0;
    width: 50px;
+   font-style: italic;
 }
 
 .grandblockrestau {
@@ -450,7 +451,6 @@ img {
    padding-left: 20px;
    font-size: 25px;
    font-style: italic;
-   font-weight: 900;
 
 
 }
@@ -459,7 +459,6 @@ img {
    margin-bottom: 15px;
    text-align: center;
    width: 100%;
-   font-weight: bold;
    font-size: 20px;
 }
 
@@ -590,7 +589,6 @@ img {
 
 .just {
    margin-left: 5%;
-   font-weight: bold;
    font-size: 20px;
 }
 

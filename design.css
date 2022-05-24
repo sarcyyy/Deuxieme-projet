@@ -34,13 +34,15 @@ img {
 }
 
 .placlog {
-   margin-right: 25px;
+   right:5%;
 }
 
 .placlog1 {
    margin-right: 15px;
 }
-
+.absolute{
+   position:absolute;
+}
 .cercle {
    position: absolute;
    left: -7px;
@@ -423,7 +425,7 @@ img {
 
 .flexrestau {
    display: flex;
-   justify-content: space-between;
+
 }
 
 .titrerestau {

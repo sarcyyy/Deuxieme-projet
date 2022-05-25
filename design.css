@@ -647,6 +647,9 @@ img {
 }
 @media (max-width:850px) {
    .localisation{
+      box-shadow: inset 0px 3px 4px 1px rgba(119, 119, 119, 0.75);
+      -moz-box-shadow: inset 0px 3px 4px 1px rgba(119, 119, 119, 0.75);
+      -webkit-box-shadow: inset 0px 3px 4px 1px rgba(119, 119, 119, 0.75);
       border-radius:0;
    }
    .img2 {

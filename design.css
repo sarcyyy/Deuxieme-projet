@@ -459,7 +459,8 @@ img {
    margin-bottom: 15px;
    text-align: center;
    width: 100%;
-   font-size: 20px;
+   font-size: 22px;
+   font-weight: bold;
 }
 
 .texterestau {
@@ -589,7 +590,8 @@ img {
 
 .just {
    margin-left: 5%;
-   font-size: 20px;
+   font-size: 22px;
+   font-weight: bold;
 }
 
 .grandfoot {

@@ -451,7 +451,7 @@ img {
    padding-left: 20px;
    font-size: 25px;
    font-style: italic;
-   padding-right:25%;
+   padding-right: 25%;
 
 
 }
@@ -644,17 +644,20 @@ img {
 .grandfoot {
    animation: grandfoot 0s 2s both;
 }
+
 .localisation {
    background-color: lightgrey;
-   border-radius:50px;
+   border-radius: 50px;
 }
+
 @media (max-width:850px) {
-   .localisation{
+   .localisation {
       box-shadow: inset 0px 3px 4px 1px rgba(119, 119, 119, 0.75);
       -moz-box-shadow: inset 0px 3px 4px 1px rgba(119, 119, 119, 0.75);
       -webkit-box-shadow: inset 0px 3px 4px 1px rgba(119, 119, 119, 0.75);
-      border-radius:0;
+      border-radius: 0;
    }
+
    .img2 {
       border-radius: 0px;
    }
@@ -667,7 +670,7 @@ img {
       padding: 0;
    }
 
- 
+
 
    .titre {
       border-bottom: 2px;

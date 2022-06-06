@@ -359,6 +359,7 @@ img {
 }
 */
 .testgranddesktop {
+   border-radius:30px;
    background-color: white;
    position: relative;
    z-index: 1;
@@ -679,7 +680,7 @@ img {
    }
 
    .img2 {
-      height: auto;
+      height: 300px;
    }
 
 }
